@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/6753bac278.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="header">
+  	<div class="head"><h1>Food <span class="span">Corner</span></h1></div>
+  	<div class="area">
+  	<form id="fromitem">
+  		<div class="inp">
+  			<input type="text" name="text" class="text" id="textinput" placeholder="Enter Your Food Name..." autocomplete="off">
+  		</div>
+  		<div class="but">
+  			<button id="btn">Submit</button>
+  		</div>
+  		
+  	</form>
+  	<div class="listgroup">
+      <ul id="listitem">
+        <li class="list">
+          <div class="let">Briyani</div>
+          <div class="icons">
+            <div onclick="replace(event)"><i class="fa-sharp fa-solid fa-pen-to-square"></i></div> 
+            <div onclick="remove(event)" class="cross"><i class="fa-sharp fa-solid fa-xmark"></i></div>
+          </div>
+        </li>
+        <li class="list">
+          <div class="let">Egg Briyani</div>
+          <div class="icons">
+            <div onclick="replace(event)"><i class="fa-sharp fa-solid fa-pen-to-square"></i></div> 
+            <div onclick="remove(event)" class="cross"><i class="fa-sharp fa-solid fa-xmark"></i></div>
+          </div>
+        <li class="list">
+          <div class="let">Mutton Briyani</div>
+          <div class="icons">
+            <div onclick="replace(event)"><i class="fa-sharp fa-solid fa-pen-to-square"></i></div> 
+            <div onclick="remove(event)" class="cross"><i class="fa-sharp fa-solid fa-xmark"></i></div>
+          </div>
+        <li class="list">
+          <div class="let">Chicken</div>
+          <div class="icons">
+            <div onclick="replace(event)"><i class="fa-sharp fa-solid fa-pen-to-square"></i></div> 
+            <div onclick="remove(event)" class="cross"><i class="fa-sharp fa-solid fa-xmark"></i></div>
+          </div>
+      </ul>
+  	</div>
+  	</div>
+  </div> 
+
+<script type="text/javascript" src="main.js" ></script>
+
+</body>
+</html>

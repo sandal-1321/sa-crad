@@ -1,0 +1,204 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	background-color: rgba(208,158,158,0.3);
+}
+.head
+{
+	display: flex;
+	justify-content: center;
+	width:100%;
+	background-color:rgb(25,255,138);
+	font-weight: bold;
+	font-size: 20px;
+	padding: 4px;
+    text-shadow: 2px 2px 10px rgb(209,158,158);
+    cursor: pointer;
+}
+#fromitem
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 200px;
+}
+.inp .text
+{
+    outline: none;
+    border: none;
+    width: 35vw; 
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: Britannic Bold;
+    font-size: 18px;
+    font-weight: bold;
+}
+.but #btn
+{
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(58,248,39,0.8);
+    font-family: Britannic Bold;
+    font-size: 18px;
+    font-weight: bold;
+}
+.icons
+{
+    display: flex;
+}
+.cross
+{
+    margin:0px 7px 0px 7px; 
+}
+#listitem
+{
+    background-color:rgba(116,243,128,0.3);
+    list-style: none;
+    border-radius:20px;
+}
+.listgroup
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+}
+#listitem .list
+{
+   padding: 17px 0px 17px 30px;
+   margin: 20px;
+   width: 580px;
+   border-radius: 5px;
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+}
+#listitem .list:hover
+{
+	background-color:rgba(116,243,128,0.8);
+}
+
+.fa-pen-to-square
+{
+padding: 0px 6px;
+}
+.fa-xmark
+{
+padding: 0px 12px 0px 2px;
+}
+
+@media (max-width: 612px)
+{
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	background-color: rgba(208,158,158,0.3);
+}
+.head
+{
+	display: flex;
+	justify-content: center;
+	width:100%;
+	background-color:rgb(25,255,138);
+	font-weight: bold;
+	font-size: 18px;
+	padding: 4px;
+    text-shadow: 2px 2px 10px rgb(209,158,158);
+    cursor: pointer;
+}
+#fromitem
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 200px;
+}
+.inp .text
+{
+    outline: none;
+    border: none;
+    width: 60vw; 
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: Britannic Bold;
+    font-size: 15px;
+    font-weight: bold;
+}
+.but #btn
+{
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(58,248,39,0.8);
+    font-family: Britannic Bold;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.icons
+{
+    display: flex;
+}
+.cross
+{
+    margin:0px 7px 0px 7px; 
+}
+
+#listitem
+{
+    background-color:rgba(116,243,128,0.3);
+    list-style: none;
+    border-radius:20px ;
+}
+.listgroup
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+}
+#listitem .list
+{
+   padding: 17px 0px 17px 30px;
+   width: 350px;
+   margin: 10px;
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+}
+#listitem .list:hover
+{
+    background-color:rgba(116,243,128,0.8);
+}
+
+.fa-pen-to-square
+{
+padding: 0px 6px;
+}
+.fa-xmark
+{
+padding: 0px 12px 0px 2px;
+}
+}
